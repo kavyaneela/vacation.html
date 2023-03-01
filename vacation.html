@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>VACATION FORM</title>
+
+        <style>
+            body{
+                background-color:lightgoldenrodyellow;
+            }
+            h1{
+                text-align: center;
+            }
+            .reg{
+                text-align: center;
+                color: crimson;
+                font-size: 20px;
+                font-weight: 600;
+                font-family: sans-serif;
+                border-radius: 5px;
+                background-color: aquamarine;
+            }
+
+            #details{
+                font-size: 20px;
+                font-weight: 700;
+            }
+
+            #details .fname{
+                width: 20%;
+                height: 30px;
+                border-radius: 5px;
+                border-color: darkcyan;
+            }
+
+            #details .lname{
+                width: 20%;
+                height: 30px;
+                border-radius: 5px;
+                border-color: darkcyan;
+            }
+
+            .fname:hover{
+                background-color:lightgrey;
+            }
+            
+            .lname:hover{
+                background-color:lightgrey;
+            }
+
+            #details .date{
+                width: 20%;
+                height: 30px;
+                border-radius: 5px;
+                border-color: darkcyan;
+            }
+            #details .mail{
+                width: 20%;
+                height: 30px;
+                border-radius: 5px;
+                border-color: darkcyan;
+            }
+            #details .phone{
+                width: 20%;
+                height: 30px;
+                border-radius: 5px;
+                border-color: darkcyan;
+            }
+            .address{
+                width: 20%;
+                height: 30px;
+                border-radius: 10px;
+                border-color: darkcyan;
+            } 
+            #details .name{
+                width: 20%;
+                height: 30px;
+                border-radius: 5px;
+                border-color: darkcyan;
+            }
+            #details .date2{
+                width: 20%;
+                height: 30px;
+                border-radius: 5px;
+                border-color: darkcyan;
+            }
+            #details .name1{
+                width: 20%;
+                height: 30px;
+                border-radius: 5px;
+                border-color: darkcyan;
+            }
+            #details .date3{
+                width: 20%;
+                height: 30px;
+                border-radius: 5px;
+                border-color: darkcyan;
+            }
+            #details .name2{
+                width: 20%;
+                height: 30px;
+                border-radius: 5px;
+                border-color: darkcyan;
+            }
+            #details .date4{
+                width: 20%;
+                height: 30px;
+                border-radius: 5px;
+                border-color: darkcyan;
+            }
+            #details .option{
+                width: 20%;
+                height: 30px;
+                border-radius: 5px;
+                border-color: darkcyan;
+            }
+            .option:hover{
+                background-color: yellowgreen;
+            }
+            .travel{
+                text-align: center;
+                color: crimson;
+                font-size: 15px;
+                font-family: sans-serif;
+                border-radius: 5px;
+                background-color: aquamarine;
+            }
+
+            .opt{
+                width: 20%;
+                height: 30px;
+                border-radius: 5px;
+                border-color: darkcyan;
+            }
+            .a{
+                width: 20%;
+                height: 30px;
+                border-radius: 5px;
+                border-color: darkcyan;
+            }
+            .b{
+                width: 20%;
+                height: 30px;
+                border-radius: 5px;
+                border-color: darkcyan;
+            }
+            .bed{
+                width: 20%;
+                height: 30px;
+                border-radius: 5px;
+                border-color: darkcyan;
+            }
+            .text{
+                width: 20%;
+                height: 30px;
+                border-radius: 5px;
+                border-color: darkcyan;
+            }
+            .emg{
+                width: 20%;
+                height: 30px;
+                border-radius: 5px;
+                border-color: darkcyan;
+            }
+            .time{
+                width: 20%;
+                height: 30px;
+                border-radius: 5px;
+                border-color: darkcyan;
+            }
+            .amount{
+                width: 20%;
+                height: 30px;
+                border-radius: 5px;
+                border-color: darkcyan;
+            }
+            .insurance{
+                width: 20%;
+                height: 30px;
+                border-radius: 5px;
+                border-color: darkcyan;
+            }
+            .terms{
+                width: 20%;
+                height: 30px;
+                border-radius: 5px;
+                border-color: darkcyan;
+            }
+            .submit{
+                width: 20%;
+                height: 30px;
+                border-radius: 5px;
+                border-color:cornflowerblue;
+                color: black;
+            }
+            .submit:hover{
+                background-color:palevioletred;
+            }
+
+        </style>
+    </head>
+    <body>
+        <form>
+            <div align="center">
+                <h1>Vacation Form</h1><hr color="blue"><br><br>
+                <img src="images/beach.jpg">
+            </div>
+            <br><br>
+
+            <table class="reg" width="100%" border="1" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>
+                        <p>Use this form to register for your vacation. Please register your legal name as it will appear on your passport.</p>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <br>
+
+            <div id="details">
+                <label>Name : </label>
+                <input type="text" class="fname" placeholder="FirstName">
+                <input type="text" class="lname" placeholder="LastName">
+                <br><br>
+                <label>Date of Birth : </label>
+                <input type="date" class="date" placeholder="MM/DD/YY">
+                <br><br>
+                <label>Email : </label>
+                <input type="email" class="mail" placeholder="eg. myname@gmail.com">
+                <br><br>
+                <label>Phone Number : </label>
+                <input type="number" class="phone" placeholder="9xxxxxxxx0">
+                <br><br>
+                <label>Address : </label>
+                <textarea class="address">type here ....</textarea>
+                <br><br>
+                <label>Guest #2 Full Name : </label>
+                <input type="text" class="name" placeholder="name">
+                <br><br>
+                <label>Date of Birth : </label>
+                <input type="date" class="date2" placeholder="MM/DD/YY">
+                <br><br>
+                <label>Guest #3 Full Name : </label>
+                <input type="text" class="name1" placeholder="name">
+                <br><br> 
+                <label>Date of Birth : </label>
+                <input type="date" class="date3" placeholder="MM/DD/YY">
+                <br><br>
+                <label>Guest #4 Full Name : </label>
+                <input type="text" class="name2" placeholder="name">
+                <br><br>
+                <label>Date of Birth : </label>
+                <input type="date" class="date4" placeholder="MM/DD/YY">
+                <br><br>
+                <label>Are all guest travelling U.S. citizen? </label><br><br>
+                <select class="option">
+                    <option>Please Select</option>
+                    <option>Yes</option>
+                    <option>No</option>
+                </select>
+                <br>
+                <br>
+                <br>
+                
+                
+            <table width="100%" class="travel" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td>
+                       <h2>Travel Information</h2>
+                    </td>
+                </tr>
+            </table> 
+            <br>
+            <br>   
+            <div>
+                <label>Cruise or Air / Hotel : </label>
+                <select class="opt">
+                    <option>Please Select</option>
+                    <option>Cruise</option>
+                    <option>Air Hotel</option> 
+                </select>
+                <br><br>
+                <label>Cabin Type A : </label>
+
+                <select class="a">
+                    <option>Please Select</option>
+                    <option>Single</option>
+                    <option>Double</option>
+                    <option>Triple</option>
+                    <option>Quad</option>
+                </select>
+                <br><br>
+                <label>Cabin Type B : </label>
+
+                <select class="b">
+                    <option>Please Select</option>
+                    <option>Inside</option>
+                    <option>Oceanview</option>
+                    <option>Balcony</option>
+                    <option>Suite</option>
+                </select>
+                <br><br>
+                <label>Hotel Bedding : </label>
+
+                <select class="bed">
+                    <option>Please select</option>
+                    <option> 2 double beds</option>
+                    <option>Queen </option>
+                    <option>King</option>
+                </select>
+
+                <br><br>
+
+                <label>Use this area to list health concerns or special occasion</label>
+                <textarea class="text">Enter...</textarea>
+                <br><br>
+                <label>Emergency contact names and number</label>
+                <textarea class="emg"> </textarea>
+                <br><br>
+                <label>Cruise dining choice : </label>
+                <select class="time">
+                    <option>Please Select</option>
+                    <option>6pm</option>
+                    <option>8pm</option>
+                    <option>mytime</option>
+                </select>
+                <br><br>
+                <label>Total trip cost : </label>
+                <input type="number" class="amount">
+                <br><br>
+                <label>Do you want travel insurance?</label>
+                <select class="insurance">
+                    <option>Please Select</option>
+                    <option>Yes</option>
+                    <option>No</option>
+                </select> 
+                <br><br>
+            
+            <table width="100%" class="acknowledge" cellspacing="10" cellpadding="10">
+                <tr>
+                    <td>
+                        <input type="checkbox" class="check" name="box">I acknowledge that I have read this registration form completely and the information I provided is accurate. I understand that my deposit is non-refunable and other cancellation penalties will apply depending on the cancel date. I understand that if my roomate (s) cancel, my rate will change. I understand that all monies must be paid by the final payment date. if my balance is left unpaid, my cabin will be canceled immediately. Prices for reinstated cabins maybe higher than intial rate and a $50 reinstatement / administration fee will be charge by Essence Travel regardless of the cancellation date.
+                    </td>
+                </tr>
+            </table>    
+            <br><br><hr color="blue">
+
+            <div>
+                <label>Do you agree to the terms and conditions.</label><br><br>
+                <select class="terms">
+                    <option>Please Select</option>
+                    <option>Yes</option>
+                    <option>No</option>
+                </select>
+            </div>
+            <br><br>
+
+            <table width="100%" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td align="center">
+                        <button type="submit" class="submit">Submit</button>
+
+                    </td>
+                </tr>
+            </table>
+            </div>
+
+            </div>
+     
+        </form>
+    </body>
+</html>
